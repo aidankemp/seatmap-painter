@@ -1,6 +1,6 @@
 {
   "name": "seatmap-painter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React-based UI tools for creating and painting groups on a provided SVG seatmap",
   "keywords": [
     "react",
