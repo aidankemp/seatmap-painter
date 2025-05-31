@@ -1,11 +1,20 @@
 # seatmap-painter
 
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://main--683a6f438848f038de181b2b.chromatic.com) [![NPM Version](https://img.shields.io/npm/v/seatmap-painter)](https://www.npmjs.com/package/seatmap-painter)
+
 React-based UI tools for creating and painting groups on a provided SVG seatmap.
 
 This package includes:
 
 - `SeatmapPainter`: Divide an SVG seatmap into groups based on a provided array of name/color pairs
+
+![SeatmapPainter-demo](https://github.com/user-attachments/assets/e5cf145a-13b3-4ebf-9ead-708fb2638183)
+
 - `GroupMaker`: An extension of `SeatmapPainter` with an interface for creating groups alongside the seatmap
+
+![GroupMaker-demo](https://github.com/user-attachments/assets/623b7947-ad19-4ab5-909f-3a42715bd1c2)
+
+Check it out here: [Storybook](https://main--683a6f438848f038de181b2b.chromatic.com)
 
 ## Installation
 
