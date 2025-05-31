@@ -1,0 +1,15 @@
+.group-maker {
+  display: flex;
+
+  .seatmap {
+    width: 60%;
+  }
+
+  .group-table {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}

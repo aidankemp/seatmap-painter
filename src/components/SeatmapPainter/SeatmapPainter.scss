@@ -1,0 +1,13 @@
+.seatmap__action-group:has(.seatmap-painter__group-selection) {
+  box-shadow: none;
+  border: none;
+}
+
+.seatmap-painter {
+  &__group-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 0.5rem;
+  }
+}
