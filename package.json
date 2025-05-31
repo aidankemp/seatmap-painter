@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aidankemp/tessitura-seatmap.git"
+    "url": "git+https://github.com/aidankemp/seatmap-painter.git"
   },
   "type": "module",
   "main": "./dist/index.umd.cjs",

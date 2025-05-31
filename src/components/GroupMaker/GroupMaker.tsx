@@ -11,6 +11,7 @@ import { SeatmapPainter } from "../SeatmapPainter/SeatmapPainter";
 import "./GroupMaker.scss";
 import { GroupMakerProps } from "./GroupMaker.types";
 import { GroupedSeats } from "../../types";
+import { getNiceColor } from "../../utils/getNiceColor";
 
 export const GroupMaker = ({ svg }: GroupMakerProps) => {
   const [tableData, setTableData] = useState<TableData["body"]>([]);
@@ -22,7 +23,7 @@ export const GroupMaker = ({ svg }: GroupMakerProps) => {
   const handleAddGroup = () => {
     setTableData((prev) => {
       const groupId = prev ? prev.length + 1 : 0;
-      const color = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+      const color = getNiceColor(groupId);
       return prev?.concat([[groupId, <ColorSwatch color={color} />, color]]);
     });
   };
